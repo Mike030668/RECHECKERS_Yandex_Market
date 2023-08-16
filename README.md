@@ -54,20 +54,20 @@
 Тут по сути нужно максимально точно детектировать и сегментировать оснвной товар на фото.
 Для решения этой задаче вначале применяется модель **CLIP image to text**. 
 
-[Alt text](images/clip.png)
+![Alt text](images/clip.png)
 
 С помощью которой получается максимально доступное описание товара для извления масок по контексту следующей моделью 
 
-[Alt text](images/from_clip.png)
+![Alt text](images/from_clip.png)
 
-[Alt text](images/from_clip_1.png)
+![Alt text](images/from_clip_1.png)
 
 
 После получения текстового описания с помощью детектора на осное DINO и SAM происходит извлечение масок с большей вероятностью
 
-[Alt text](images/masks.png)
+![Alt text](images/masks.png)
 
-[Alt text](images/segment_maskings.png)
+![Alt text](images/segment_maskings.png)
 
 
 
@@ -76,6 +76,6 @@
 Генерация фона происходит по методу Generation In-painting с применением модели Stable Diffusion 
 К маске, которая закрывает все, кромы товара, добавляется текстовое описание относящеся к фону для генерации
 
-[Alt text](images/generate_1.png)
+![Alt text](images/generate_1.png)
 
-[Alt text](images/generate_2.png)
+![Alt text](images/generate_2.png)
