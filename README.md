@@ -2,7 +2,12 @@
 
 ![Alt text](images/startt_img.jpg)
 
+# Защита проекта
+- [Видео защиты](https://youtu.be/TwYi8oPWg8c?t=10811)
+- [Презентация защиты](https://docs.google.com/presentation/d/1vlfu6Lh8CNyNEXhSIPQFcUdBiN_pjEnx/edit?usp=sharing&ouid=102092748014811067916&rtpof=true&sd=true)
+
 # Краткое описание проекта
+- [Описание задачи от Яндекса](https://docs.google.com/presentation/d/1Ekg0c6K2G7vxRNBgILDgvWInPL8xrORQ/edit#slide=id.p1)
 
 Решаемые в рамках соревнования задачи:
     <li> Классификация фото по качеству инфографики и фона
